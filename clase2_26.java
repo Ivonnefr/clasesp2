@@ -1,21 +1,8 @@
 public class clase2_26 {
-    
+    Expendedor x = new Expendedor();
+    Moneda m = new Moneda();
 }
-class Deposito {
-    private ArrayList<Bebida> bebidas;
 
-    public Deposito() {
-        
-    }
-
-    public void addBebida(Bebida bebida) {
-        
-    }
-
-    public Bebida getBebida() {
-        
-    }
-}
 
 class Bebida {
     private int serie;
@@ -29,4 +16,16 @@ class Bebida {
     }
 
     public void beber() {}
+}
+
+class Expendedor{
+
+}
+class Deposito{
+    ArrayList<Bebida> bebidas = new ArrayList<Bebida>();
+    public Deposito(){
+
+    }
+    Bebida b= new Bebida()
+    
 }
